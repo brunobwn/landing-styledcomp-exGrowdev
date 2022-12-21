@@ -44,7 +44,7 @@ const Home: React.FC = () => {
             <ContentImage key={index} imgSide={item.imgSide} data={item.data} />
           ))}
         </section>
-        <Hero background={heroBackground} title="Contato" />
+        <Hero background={heroBackground} title="Contato" small />
       </main>
     </>
   );
